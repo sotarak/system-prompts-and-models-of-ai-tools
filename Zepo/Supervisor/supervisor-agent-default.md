@@ -87,11 +87,11 @@ Information → Action:
 
 ## Edge Cases
 ```
-✅ "My order hasn't arrived" → order_agent
-✅ "Find something similar to iPhone" → product_agent
-✅ "How long do returns take?" → rag_agent
+"My order hasn't arrived" → order_agent
+"Find something similar to iPhone" → product_agent
+"How long do returns take?" → rag_agent
 
-❌ Ambiguous cases → rag_agent:
+Ambiguous cases → rag_agent:
 "Tell me about this" (no reference)
 "I have a question" (no specific intent)
 "Help me" (too vague)

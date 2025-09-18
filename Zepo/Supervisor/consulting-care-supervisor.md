@@ -69,11 +69,11 @@ Returning Patient:
 
 ## Edge Cases
 ```
-✅ "Check my appointment schedule" → appointment_agent
-✅ "When is best time for treatment?" → rag_agent
-✅ "What time is my appointment tomorrow?" → appointment_agent
+"Check my appointment schedule" → appointment_agent
+"When is best time for treatment?" → rag_agent
+"What time is my appointment tomorrow?" → appointment_agent
 
-❌ Ambiguous cases → rag_agent:
+Ambiguous cases → rag_agent:
 "I have questions about treatments"
 "Can you help me?"
 "Tell me about your services"

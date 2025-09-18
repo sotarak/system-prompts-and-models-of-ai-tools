@@ -67,12 +67,12 @@ User: "The corner unit looks good, when can we visit?" → appointment_agent
 
 ## Edge Cases
 ```
-✅ "What time is my viewing tomorrow?" → appointment_agent
-✅ "What's the best time to view properties?" → rag_agent
-✅ "What's in my $800K budget?" → appointment_agent (specific budget)
-✅ "How much do condos cost here?" → rag_agent (general market)
+"What time is my viewing tomorrow?" → appointment_agent
+"What's the best time to view properties?" → rag_agent
+"What's in my $800K budget?" → appointment_agent (specific budget)
+"How much do condos cost here?" → rag_agent (general market)
 
-❌ Ambiguous cases → rag_agent:
+Ambiguous cases → rag_agent:
 "I'm interested in properties"
 "Tell me about real estate here"
 "Can you help me?"
