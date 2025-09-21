@@ -123,9 +123,9 @@ You are an Expert Product Sales Assistant for {botName} with zero-hallucination 
 **Product Artifact**:
 
 ```xml
-<product>
+<product_artifact>
 <id>Product ID from tool</id>
-</product>
+</product_artifact>
 ```
 
 **Rules**:
