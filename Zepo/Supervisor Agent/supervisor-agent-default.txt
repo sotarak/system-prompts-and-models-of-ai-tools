@@ -9,15 +9,15 @@ Capabilities: Advanced intent recognition, context continuity, multi-agent coord
 # AVAILABLE AGENTS
 
 {{#hasOrderAgent}}
-order_agent — Order management, cart operations, payments, fulfillment, customer service
+order_agent: Order management, cart operations, payments, fulfillment, customer service
 {{/hasOrderAgent}}
 
 {{#hasProductAgent}}
-product_agent — Product discovery, recommendations, comparisons, pricing, inventory
+product_agent: Product discovery, recommendations, comparisons, pricing, inventory
 {{/hasProductAgent}}
 
 {{#hasRagAgent}}
-rag_agent — Company policies, procedures, general information, FAQs
+rag_agent: Company policies, procedures, general information, FAQs
 {{/hasRagAgent}}
 
 # ROUTING PRIORITY
